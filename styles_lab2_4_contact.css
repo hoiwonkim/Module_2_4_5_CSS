@@ -1,0 +1,189 @@
+#contact{
+  color: white;
+  background-color: rgb(25, 8, 53);
+  padding-bottom: 50px;
+  padding: 100px 0;
+  transition: all 0.3s ease;
+}
+
+#contact-subtitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family:  'Ubuntu', sans-serif;
+  text-decoration: underline;
+}
+
+#contact-subtitle::after {
+  content: "How to Contact Me";
+  font-size: 20px;
+  font-weight: 600;
+  color: orange;
+}
+
+#contact-dtext {
+  font-size: 20px;
+  font-weight: 600;
+  font-family:  'Ubuntu', sans-serif;
+  padding-left: 10px;
+}
+
+#contact-dtext1 {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 10px;
+}
+
+#contact-dtext2 {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+#contact-dtext3 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.contact .title::before{
+  background-color: white;
+}
+
+.contact .contact-content .column{
+  width: 45%;
+}
+
+.contact .contact-content .contact-text{
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.contact .contact-content p{
+  font-size: 15px;
+  text-align: justify;
+}
+
+.contact .contact-content .left .icons{
+  margin: 15px 0;
+}
+
+.contact .contact-content .icons-content{
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.contact .contact-content .icons-content i{
+  margin-right: 20px;
+  font-size: 25px;
+  color: rgb(255, 164, 45);
+}
+
+.contact .contact-content .icons-content .info .head{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.contact .contact-content .icons-content .info .tail{
+  color: rgb(230, 220, 220);
+}
+
+#form {
+  display: flex;
+  padding-left: 840px;
+}
+
+.contact .table .field,
+.contact .table .fields .field{
+  height: 40px;
+  width: 100%;
+  margin-bottom: 15px;
+}  
+
+#table .right{
+  margin-bottom: 50px;
+}
+
+#table .right .content-area{
+  height: 80px;
+  width: 100%;
+}
+
+#table .right form .name{
+  margin-right: 10px;
+}
+
+#table .right form .email{
+  margin-left: 10px;
+}
+
+#table .right form .field input,
+#table .right form .content-area textarea{
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgb(255, 164, 45);
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif
+}
+
+#table .right form .content-area textarea{
+  padding-top: 10px;
+  resize: none;
+}
+
+#table .right form .button{
+  height: 40px;
+  width: 120px;
+}
+
+#table .right form .button button{
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(255, 164, 45);
+  background-color: rgb(255, 164, 45);
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#table .right form .button button:hover{
+  color: rgb(255, 164, 45);
+  background: none;
+}
+
+/* Font Awesome Icons */
+
+.blue-color {
+  color:blue;
+}
+
+.green-color {
+  color:green;
+}
+
+.teal-color {
+  color:teal;
+}
+
+.yellow-color {
+color:yellow;
+}
+
+.red-color {
+  color:red;
+} 
+  

@@ -1,0 +1,69 @@
+.about{
+    padding: 20px 0;
+    transition: all 0.3s ease;
+  }
+
+  #about-title {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  
+  #about-title::after {
+    content: "Who am I?? Do you know about me??? Come here. I will show you myself.";
+    /* padding-bottom: -600px; */
+    font-size: 20px;
+    color: orange;
+  }
+  
+  .about .about-content{
+    margin-bottom: 20px;
+  }
+  
+  .about .about-content .left{
+    width: 45%;
+    /* padding-left: -600px; */
+  }
+  
+  .about .about-content .left img{
+    height: 340px;
+    width: 285px;
+    object-fit: cover;
+    border-radius: 6px;
+    /* float: left; */
+}
+  
+  .about .about-content .right{
+    width: 100%;
+    padding-bottom: 20px;
+    /* display: table; */
+}
+  
+  .about .about-content .right .about-text,
+  .about .about-content .right .about-skills{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* text-align: right;  */
+  }
+  
+  .about .about-content .right .about-skills span{
+    color: rgb(255, 164, 45);;
+  }
+  
+  .about .about-content .right p{
+    text-align: top;
+    font-size: 20px;
+    text-align: justify;
+    /* padding: 5px; */
+    /* line-height: 28px; */
+    /* vertical-align: middle; */
+    /* position: relative; */
+    /* clear: both; */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+  }
+  
